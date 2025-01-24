@@ -1,10 +1,10 @@
 <template>
   <nav class="bg-gray-100 dark:bg-gray-900 text-gray-800 dark:text-gray-100 shadow-md py-3 transition-colors duration-300">
-    <div class="container mx-auto px-4 py-3">
+    <div class="container mx-auto px-3 py-2">
       <div class="flex justify-between items-center">
-        <NuxtLink to="/" class="font-bold text-gray-900 dark:text-white">
-          <img src="/public/logo.png" alt="Go Clean" class="h-12 w-auto dark:hidden" />
-          <img src="/public/logo.png" alt="Go Clean" class="h-12 w-auto hidden dark:block" />
+        <NuxtLink to="/" class="font-bold text-gray-900 dark:text-white -m-2">
+          <img src="/public/logo.png" alt="Go Clean" class="h-16 w-auto dark:hidden" />
+          <img src="/public/logo.png" alt="Go Clean" class="h-16 w-auto hidden dark:block" />
         </NuxtLink>
 
         <!-- Hamburger Menu Button -->
@@ -19,6 +19,7 @@
           <NuxtLink to="/" class="hover:text-blue-600 dark:hover:text-blue-400 transition duration-300">Home</NuxtLink>
           <NuxtLink to="/services" class="hover:text-blue-600 dark:hover:text-blue-400 transition duration-300">Layanan</NuxtLink>
           <NuxtLink to="/about" class="hover:text-blue-600 dark:hover:text-blue-400 transition duration-300">Tentang</NuxtLink>
+          <NuxtLink to="/gallery" class="hover:text-blue-600 dark:hover:text-blue-400 transition duration-300">Gallery</NuxtLink>
           <NuxtLink to="/contact" class="hover:text-blue-600 dark:hover:text-blue-400 transition duration-300">Kontak</NuxtLink>
         </div>
       </div>
@@ -28,6 +29,7 @@
         <NuxtLink to="/" class="block py-2 text-gray-800 dark:text-gray-100 border-b hover:text-blue-600 dark:hover:text-blue-400" @click="closeMenu">Home</NuxtLink>
         <NuxtLink to="/services" class="block py-2 text-gray-800 dark:text-gray-100 border-b hover:text-blue-600 dark:hover:text-blue-400" @click="closeMenu">Layanan</NuxtLink>
         <NuxtLink to="/about" class="block py-2 text-gray-800 dark:text-gray-100 border-b hover:text-blue-600 dark:hover:text-blue-400" @click="closeMenu">Tentang</NuxtLink>
+        <NuxtLink to="/gallery" class="block py-2 text-gray-800 dark:text-gray-100 border-b hover:text-blue-600 dark:hover:text-blue-400" @click="closeMenu">Gallery</NuxtLink>
         <NuxtLink to="/contact" class="block py-2 text-gray-800 dark:text-gray-100 hover:text-blue-600 dark:hover:text-blue-400" @click="closeMenu">Kontak</NuxtLink>
       </div>
     </div>

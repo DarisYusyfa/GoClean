@@ -3,15 +3,15 @@
     <div class="container mx-auto px-4">
       <h2 class="text-3xl font-bold text-center mb-12">Layanan Kami</h2>
       <div class="grid md:grid-cols-3 sm:grid-cols-1 gap-8">
-        <div class="service-card p-6 border rounded-lg shadow-lg">
+        <div class="service-card p-6 border rounded-lg shadow-lg" data-aos="zoom-in" data-aos-delay="200">
           <h3 class="text-xl font-semibold mb-4">Sedot WC Tersumbat</h3>
           <p>Mengatasi masalah WC tersumbat dengan peralatan modern</p>
         </div>
-        <div class="service-card p-6 border rounded-lg shadow-lg">
+        <div class="service-card p-6 border rounded-lg shadow-lg" data-aos="zoom-in" data-aos-delay="400">
           <h3 class="text-xl font-semibold mb-4">Sedot WC Penuh</h3>
           <p>Pengurasan tangki septik dengan armada terbaik</p>
         </div>
-        <div class="service-card p-6 border rounded-lg shadow-lg">
+        <div class="service-card p-6 border rounded-lg shadow-lg" data-aos="zoom-in" data-aos-delay="600">
           <h3 class="text-xl font-semibold mb-4">Perbaikan Saluran</h3>
           <p>Perbaikan dan perawatan saluran pembuangan</p>
         </div>
@@ -21,7 +21,17 @@
 </template>
 
 <script setup>
-// Tidak ada perubahan pada script
+import { onMounted } from 'vue';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+
+onMounted(() => {
+  AOS.init({
+    duration: 1000, // Durasi animasi 1 detik
+    easing: 'ease-in-out', // Efek transisi yang halus
+    once: true, // Animasi hanya berjalan sekali
+  });
+});
 </script>
 
 <style scoped>

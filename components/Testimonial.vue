@@ -34,11 +34,15 @@ export default {
         },
         {
           name: 'Siti Rahayu',
-          comment: 'Tim yang ramah dan hasil kerja yang bersih. Terima kasih SedotWC Pro!',
+          comment: 'Tim yang ramah dan hasil kerja yang bersih. Terima kasih GoClean SedotWC!',
         },
         {
           name: 'Agus Pratama',
           comment: 'Harga terjangkau dengan kualitas layanan terbaik. Recommended!',
+        },
+        {
+          name: 'Fitriana Dewi',
+          comment: 'Pokonya Puas , Bersih,Murah dan Cepat. Terima kasih GoClean SedotWC!',
         },
       ],
     };

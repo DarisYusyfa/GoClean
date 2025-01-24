@@ -11,7 +11,7 @@
               </div>
               <div>
                 <h3 class="font-semibold">Telepon</h3>
-                <a href="tel:+628123456789" class="text-blue-600 hover:text-blue-800"> 0812-3456-789 </a>
+                <a href="tel:+6285871626208" class="text-black dark:text-gray-100"> 0812-3456-789 </a>
               </div>
             </div>
             <div class="flex items-center gap-4">
@@ -20,7 +20,7 @@
               </div>
               <div>
                 <h3 class="font-semibold">WhatsApp</h3>
-                <a href="https://api.whatsapp.com/send?phone=6287777843845" class="text-blue-600 hover:text-blue-800"> 0812-3456-789 </a>
+                <a href="https://api.whatsapp.com/send?phone=6285871626208" class="text-black dark:text-gray-100"> 0858-7162-6208 </a>
               </div>
             </div>
             <div class="flex items-center gap-4">
@@ -29,7 +29,7 @@
               </div>
               <div>
                 <h3 class="font-semibold">Alamat</h3>
-                <p class="text-gray-600">Jl. Contoh No. 123, Kota Anda</p>
+                <p class="text-black dark:text-gray-100">Jl. Maleber Utara No.27, Bandung</p>
               </div>
             </div>
           </div>

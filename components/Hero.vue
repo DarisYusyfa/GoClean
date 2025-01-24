@@ -10,7 +10,7 @@
             <p class="text-xl mb-8 text-black">Layanan sedot WC terpercaya, berpengalaman, dan bergaransi</p>
             <p class="text-xl mb-8 font-extrabold text-black">Sedot WC ? Di Go Clean Aja, Dijamin Murah Bergaransi</p>
             <a
-              href="https://api.whatsapp.com/send?phone=6287777843845&text=Asslamualaikum%20Saya%20Mau%20Pesan%20Layanan%20Sedot%20Wc%20Nya%20"
+              href="https://api.whatsapp.com/send?phone=6285871626208&text=Asslamualaikum%20Saya%20Mau%20Pesan%20Layanan%20Sedot%20Wc%20Nya%20"
               class="bg-gray-700 text-white px-6 py-3 rounded-lg font-semibold hover:bg-gray-300 hover:text-black inline-flex items-center"
             >
               <Icon icon="ic:baseline-whatsapp" width="24" height="24" class="mr-2" />
@@ -78,10 +78,6 @@ const rightToLeftSlogans = ['Garansi Kepuasan 100%', 'Teknisi Berpengalaman', 'H
 
 .animate-scroll-right {
   animation: scrollRight 15s linear infinite;
-}
-
-.bg-primary {
-  background-color: #4caf50; /* Custom primary color */
 }
 
 /* Menambahkan background image untuk tampilan mobile */
